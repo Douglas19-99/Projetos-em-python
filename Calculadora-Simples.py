@@ -2,13 +2,13 @@ print(f'{'CALCULADORA SIMPLES':=^40}')
 while True: 
     try:
         num1 = float(input('Insira o primeiro número: '))
+        operacao = int(input('Escolha uma das opções: '))
         num2 = float(input('Insira o segundo número: '))
         print('[1] Adição')
         print('[2] Subtração')
         print('[3] Divisão')
         print('[4] Multiplicação')
         print('[5] Sair')
-        operacao = int(input('Escolha uma das opções: '))
         print('-' * 40)
 
         if operacao == 1:
